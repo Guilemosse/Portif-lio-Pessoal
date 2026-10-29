@@ -1,0 +1,591 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Portfólio pessoal de Guilherme Silva Lemos. Projetos, habilidades, localização e contato.">
+
+    <title>Guilherme Silva Lemos - Portfólio</title>
+
+    <link rel="stylesheet" href="./style.css?v=5">
+</head>
+
+<body>
+
+    <!-- =====================================
+         NAVBAR
+    ===================================== -->
+
+    <header class="cabecalho">
+
+        <nav class="navbar"
+             aria-label="Navegação principal">
+
+            <a href="#inicio" class="logo">
+                <span class="logo-icone">&lt;/&gt;</span>
+                <span>Guilherme Lemos</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="menuNavegacao">
+                ☰
+            </button>
+
+            <div class="nav-links" id="menuNavegacao">
+
+                <a href="#inicio">Início</a>
+
+                <a href="#projetos">Projetos</a>
+
+                <a href="#habilidades">Habilidades</a>
+
+                <a href="#contatos" class="nav-contato">
+                    Contato
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =====================================
+         CONTEÚDO PRINCIPAL
+    ===================================== -->
+
+    <main class="portfolio">
+
+
+        <!-- =====================================
+             PERFIL
+        ===================================== -->
+
+        <section class="perfil" id="inicio">
+
+            <div class="foto-perfil">
+
+                <img
+                    src="Gui.jpeg"
+                    alt="Foto de Guilherme Silva Lemos"
+                >
+
+            </div>
+
+            <div class="informacoes">
+
+                <h1>Guilherme Silva Lemos</h1>
+
+                <p>
+                    Estudante de desenvolvimento web.
+                </p>
+
+                <p>
+                    Apaixonado por tecnologia,
+                    programação e inovação.
+                </p>
+
+                <p>
+                    Buscando aprender e desenvolver
+                    novos projetos.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             PROJETOS
+        ===================================== -->
+
+        <section class="projetos" id="projetos">
+
+            <div class="titulo-secao">
+
+                <h2>PROJETOS</h2>
+
+                <span aria-hidden="true">▲</span>
+
+            </div>
+
+            <div class="area-carrossel">
+
+                <button
+                    class="seta"
+                    id="anterior"
+                    type="button"
+                    aria-label="Projeto anterior">
+                    &#10094;
+                </button>
+
+
+                <div class="lista-projetos"
+                     id="listaProjetos">
+
+
+
+<!-- PROJETO 01 - LÂMPADA -->
+
+<article class="card-projeto">
+
+    <div class="imagem-projeto">
+        <img
+            src="../../Lampada%20-%20UNIT/lamp_on_off.png"
+            alt="Projeto Lâmpada"
+            class="foto-projeto"
+        >
+    </div>
+
+    <h3>Lâmpada Interativa</h3>
+
+    <p>
+        Projeto acadêmico desenvolvido
+        com HTML, CSS e JavaScript.
+    </p>
+
+    <a
+        href="../../Lampada%20-%20UNIT/index.html"
+        class="botao-projeto"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        Ver projeto ↗
+    </a>
+
+</article>
+
+
+
+                    <!-- PROJETO 02 -->
+                    <article class="card-projeto">
+
+                        <div class="imagem-projeto">
+                            <span>▧</span>
+                        </div>
+
+                        <h3>Projeto 02</h3>
+
+                        <p>
+                            Aplicação usando
+                            JavaScript.
+                        </p>
+
+                    </article>
+
+
+                    <!-- PROJETO 03 -->
+                    <article class="card-projeto">
+
+                        <div class="imagem-projeto">
+                            <span>▧</span>
+                        </div>
+
+                        <h3>Projeto 03</h3>
+
+                        <p>
+                            Interface web responsiva.
+                        </p>
+
+                    </article>
+
+
+                    <!-- PROJETO 04 -->
+                    <article class="card-projeto">
+
+                        <div class="imagem-projeto">
+                            <span>▧</span>
+                        </div>
+
+                        <h3>Projeto 04</h3>
+
+                        <p>
+                            Projeto acadêmico.
+                        </p>
+
+                    </article>
+
+
+                    <!-- PROJETO 05 -->
+                    <article class="card-projeto">
+
+                        <div class="imagem-projeto">
+                            <span>▧</span>
+                        </div>
+
+                        <h3>Projeto 05</h3>
+
+                        <p>
+                            Experimento de programação.
+                        </p>
+
+                    </article>
+
+                </div>
+
+
+                <button
+                    class="seta"
+                    id="proximo"
+                    type="button"
+                    aria-label="Próximo projeto">
+                    &#10095;
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             HABILIDADES
+        ===================================== -->
+
+        <section class="habilidades" id="habilidades">
+
+            <div class="titulo-secao">
+
+                <h2>HABILIDADES</h2>
+
+                <span aria-hidden="true">▲</span>
+
+            </div>
+
+            <div class="lista-habilidades">
+
+
+                <!-- HTML -->
+                <div class="habilidade">
+
+                    <label for="html">HTML</label>
+
+                    <input
+                        type="range"
+                        id="html"
+                        min="0"
+                        max="100"
+                        value="85">
+
+                    <output for="html">85%</output>
+
+                </div>
+
+
+                <!-- CSS -->
+                <div class="habilidade">
+
+                    <label for="css">CSS</label>
+
+                    <input
+                        type="range"
+                        id="css"
+                        min="0"
+                        max="100"
+                        value="75">
+
+                    <output for="css">75%</output>
+
+                </div>
+
+
+                <!-- JAVASCRIPT -->
+                <div class="habilidade">
+
+                    <label for="javascript">
+                        JavaScript
+                    </label>
+
+                    <input
+                        type="range"
+                        id="javascript"
+                        min="0"
+                        max="100"
+                        value="60">
+
+                    <output for="javascript">60%</output>
+
+                </div>
+
+
+                <!-- GIT E GITHUB -->
+                <div class="habilidade">
+
+                    <label for="git">
+                        Git e GitHub
+                    </label>
+
+                    <input
+                        type="range"
+                        id="git"
+                        min="0"
+                        max="100"
+                        value="50">
+
+                    <output for="git">50%</output>
+
+                </div>
+
+
+                <!-- PYTHON -->
+                <div class="habilidade">
+
+                    <label for="python">Python</label>
+
+                    <input
+                        type="range"
+                        id="python"
+                        min="0"
+                        max="100"
+                        value="50">
+
+                    <output for="python">50%</output>
+
+                </div>
+
+
+                <!-- REACT -->
+                <div class="habilidade">
+
+                    <label for="react">React</label>
+
+                    <input
+                        type="range"
+                        id="react"
+                        min="0"
+                        max="100"
+                        value="40">
+
+                    <output for="react">40%</output>
+
+                </div>
+
+
+                <!-- TYPESCRIPT -->
+                <div class="habilidade">
+
+                    <label for="typescript">
+                        TypeScript
+                    </label>
+
+                    <input
+                        type="range"
+                        id="typescript"
+                        min="0"
+                        max="100"
+                        value="35">
+
+                    <output for="typescript">35%</output>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             CONTATOS
+        ===================================== -->
+
+        <section class="contatos" id="contatos">
+
+            <div class="titulo-secao">
+
+                <h2>CONTATOS</h2>
+
+                <span aria-hidden="true">▲</span>
+
+            </div>
+
+
+            <div class="area-contatos">
+
+
+                <!-- =====================================
+                     MAPA DE ARACAJU - SERGIPE
+                ===================================== -->
+
+                <div class="card-contato card-mapa">
+
+                    <h3>MINHA LOCALIZAÇÃO</h3>
+
+                    <div class="mapa-container">
+
+                        <iframe
+                            title="Mapa de Aracaju, Sergipe, Brasil"
+                            src="https://www.google.com/maps?q=Aracaju%2C%20Sergipe%2C%20Brasil&amp;z=12&amp;output=embed"
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            allowfullscreen>
+                        </iframe>
+
+                    </div>
+
+                    <p class="texto-localizacao">
+                        Aracaju - Sergipe, Brasil
+                    </p>
+
+                    <a
+                        class="botao-mapa"
+                        href="https://www.google.com/maps/search/?api=1&amp;query=Aracaju%2C%20Sergipe%2C%20Brasil"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Ver no Google Maps ↗
+
+                    </a>
+
+                </div>
+
+
+                <!-- =====================================
+                     FORMULÁRIO DE CONTATO
+                ===================================== -->
+
+                <div class="card-contato">
+
+                    <h3>ENTRE EM CONTATO</h3>
+
+                    <form id="formContato">
+
+                        <input
+                            type="text"
+                            id="nome"
+                            name="nome"
+                            placeholder="Seu nome"
+                            aria-label="Seu nome"
+                            required>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Seu e-mail"
+                            aria-label="Seu e-mail"
+                            required>
+
+                        <textarea
+                            id="mensagem"
+                            name="mensagem"
+                            placeholder="Sua mensagem"
+                            aria-label="Sua mensagem"
+                            required></textarea>
+
+                        <button type="submit">
+                            ENVIAR
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+
+            <!-- =====================================
+                 REDES SOCIAIS
+            ===================================== -->
+
+            <div class="redes-sociais">
+
+                <p>Conecte-se comigo</p>
+
+                <div class="links-sociais">
+
+
+                    <!-- GITHUB -->
+                    <a
+                        href="https://github.com/Guilemosse"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub de Guilherme Lemos"
+                        title="Meu GitHub">
+
+                        <svg
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                            aria-hidden="true">
+
+                            <path d="M12 .3a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.23c-3.34.73-4.04-1.42-4.04-1.42-.55-1.4-1.34-1.77-1.34-1.77-1.09-.74.08-.73.08-.73 1.2.08 1.83 1.23 1.83 1.23 1.07 1.83 2.8 1.3 3.49.99.11-.77.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.93 0-1.31.47-2.38 1.23-3.22-.12-.3-.53-1.52.12-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.3-1.55 3.3-1.23 3.3-1.23.65 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.6-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .3Z"/>
+
+                        </svg>
+
+                    </a>
+
+
+                    <!-- LINKEDIN -->
+                    <a
+                        href="https://www.linkedin.com/in/guilherme-silva-lemos-38ba8017b/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn de Guilherme Lemos"
+                        title="Meu LinkedIn">
+
+                        <svg
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                            aria-hidden="true">
+
+                            <path d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52C22 2.68 21.31 2 20.45 2ZM7.93 18.75H4.98V9.2h2.95v9.55ZM6.45 7.9a1.71 1.71 0 1 1 0-3.42 1.71 1.71 0 0 1 0 3.42Zm12.3 10.85H15.8V14.1c0-1.11-.02-2.54-1.55-2.54-1.55 0-1.79 1.21-1.79 2.46v4.73H9.51V9.2h2.83v1.3h.04c.39-.74 1.36-1.53 2.79-1.53 2.98 0 3.58 1.96 3.58 4.51v5.27Z"/>
+
+                        </svg>
+
+                    </a>
+
+
+                    <!-- INSTAGRAM -->
+                    <a
+                        href="https://www.instagram.com/guilemos_dm/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Instagram de Guilherme Lemos"
+                        title="Meu Instagram">
+
+                        <svg
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                            aria-hidden="true">
+
+                            <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.5-2.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Z"/>
+
+                        </svg>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             RODAPÉ
+        ===================================== -->
+
+        <footer>
+
+            <p>
+                Guilherme Silva Lemos - Portfólio 2026
+            </p>
+
+        </footer>
+
+    </main>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
